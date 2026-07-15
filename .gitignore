@@ -1,0 +1,44 @@
+# --- Python and Manim ---
+__pycache__/
+*.pyc
+media/
+/media
+
+# --- MATLAB and Simulink ---
+*.asv
+slprj/
+*.slxc
+*.mex*
+metadata/
+
+# --- OS specific ---
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# SCI PK VIDEO & AUDIO EXCLUSIONS
+# ==========================================
+
+# 1. Ignore Manim's default media output directories
+media/
+**/media/
+
+# 2. Ignore all video file formats globally (any folder, any depth)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.gif
+
+# 3. Ignore audio files (voiceovers, SFX, music)
+*.wav
+*.mp3
+*.m4a
+*.flac
+
+# 4. Ignore video editor temporary files (Premiere / After Effects)
+**/Adobe Premiere Pro Auto-Save/
+*.prproj
+*.aep
+*.aepx
